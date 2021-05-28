@@ -1,0 +1,26 @@
+.like-heart {
+  width: 55px;
+  height: 55px;
+  transition: .6s;
+
+  &__st1 {
+    cursor: pointer;
+    fill: none;
+    stroke: #303030;
+    stroke-width: 0.7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+  
+  &_active {
+    .like-heart__st1 {
+      fill: red;
+    }
+  }
+}
+

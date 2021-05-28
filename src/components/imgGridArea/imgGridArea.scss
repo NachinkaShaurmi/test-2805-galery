@@ -1,0 +1,15 @@
+.gallery-view {
+  margin: 10px auto;
+  overflow-x: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+  max-width: 1200px;
+  background-color: #ccc;
+  border: 2px solid #777;
+  border-radius: 4px;
+  padding: 1rem;
+}
